@@ -9,5 +9,7 @@ playing with Sparkling Water
 Docker : https://github.com/sequenceiq/docker-spark  
 
 ```bash
+docker pull sequenceiq/hadoop-docker:2.7.0
+
 docker pull sequenceiq/spark:1.6.0
 ```
