@@ -6,6 +6,13 @@ playing with Sparkling Water
 - https://github.com/h2oai/h2o-3  
 - http://www.h2o.ai/download/sparkling-water/spark16
 
+##  /sparkling-water-droplet/
+
+- https://github.com/h2oai/h2o-droplets/tree/master/sparkling-water-droplet 
+
+
+****************
+
 Docker : https://github.com/sequenceiq/docker-spark  
 
 get docker hadoop and spark images 
