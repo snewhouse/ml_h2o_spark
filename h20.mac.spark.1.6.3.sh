@@ -30,23 +30,28 @@ export SPARK_HOME="/usr/local/spark"
 # add to my
 echo 'export SPARK_HOME="/usr/local/spark"' >> ~/.zshrc ## specific to my local mac
 source ~/.zshrc
-
+rm /usr/local/spark-1.6.1-bin-hadoop2.6.tgz
 # echo 'export SPARK_HOME="/usr/local/spark"' >> ~/.bashrc ## specific to my local mac
 # source ~/.bashrc
 
 
 ## H20 ------------------------------------------#
+# - http://www.h2o.ai/download/h2o/choose
 
 # desktop
 cd /usr/local
 curl -o h2o.zip http://download.h2o.ai/versions/h2o-3.8.2.8.zip
-unzip h2o-3.8.2.8.zip
+unzip h2o.zip
+ln -s h2o-3.8.2.8 h2o
+chmod -R 755 h2o
+rm /usr/local/h2o.zip
 
 ## python
 sudo pip install -U requests
 sudo pip install -U tabulate
 sudo pip install -U future
 sudo pip install -U six
+pip install scikit-learn
 sudo pip uninstall h2o
 sudo pip install http://h2o-release.s3.amazonaws.com/h2o/rel-turchin/8/Python/h2o-3.8.2.8-py2.py3-none-any.whl
 
