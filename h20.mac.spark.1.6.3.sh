@@ -4,18 +4,22 @@
 cd ${INSTALL_DIR}
 
 ## get spark and stick it in  /usr/local/
-curl -OL http://www.apache.org/dyn/closer.lua/spark/spark-1.6.1/spark-1.6.1-bin-hadoop2.6.tgz
-cd /usr/local && ln -s spark-1.6.1-bin-hadoop2.6 spark
+cd /usr/local
+curl -OL http://mirror.catn.com/pub/apache/spark/spark-1.6.1/spark-1.6.1-bin-hadoop2.6.tgz | tar -xz -C /usr/local/
+
+cd /usr/local && \
+ln -s spark-1.6.1-bin-hadoop2.6 spark
+
 chmod -R 755 spark
+
 export SPARK_HOME="/usr/local/spark"
 
-echo "export SPARK_HOME /usr/local/spark" >> .zrsh ## specific to my local mac
-source .zrsh
+echo 'export SPARK_HOME="/usr/local/spark"' >> ~/.zshrc ## specific to my local mac
+
+source ~/.zshrc
 
 
-## STE JAVA_HOME
-
-export SPARK_HOME="/path/to/spark/installation"
+## SET JAVA_HOME
 
 ## get h20
 
