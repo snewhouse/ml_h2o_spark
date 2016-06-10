@@ -24,9 +24,12 @@ source ~/.zshrc
 
 ## SET JAVA_HOME
 #  /usr/libexec/java_home  -V
-export JAVA_HOME="/Library/Java/Home"
-echo 'export JAVA_HOME="/Library/Java/Home"' >> ~/.zshrc ## specific to my local mac
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home"
+echo 'export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home"' >> ~/.zshrc ## specific to my local mac
 source ~/.zshrc
+
+# echo 'export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home"' >> ~/.bashrc ## specific to my local mac
+# source ~/.bashrc
 
 ## H20 ------------------------------------------#
 ## get h20
