@@ -1,0 +1,16 @@
+package:
+  name: h2o
+  version: 3.8.2.8
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - python
+    - pip
+
+about:
+  home: https://github.com/h2oai/h2o-3
+  license: Apache 2.0
+  summary: H2O Fast Scalable Machine Learning API For Smarter Applications (Deep Learning, GBM, GLM...)

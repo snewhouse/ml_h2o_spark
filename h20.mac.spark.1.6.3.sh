@@ -46,6 +46,9 @@ ln -s h2o-3.8.2.8 h2o
 chmod -R 755 h2o
 rm /usr/local/h2o.zip
 
+echo 'export PATH=$PATH:/usr/local/h2o' >> ~/.zshrc ## specific to my local mac
+source ~/.zshrc
+
 ## python
 sudo pip install -U requests
 sudo pip install -U tabulate
