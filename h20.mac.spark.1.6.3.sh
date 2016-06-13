@@ -13,16 +13,14 @@ source ~/.zshrc
 
 
 ## SPARK ------------------------------------------##
-
+cd /usr/local
 # get spark and stick it in /usr/local/
-curl -OL http://mirror.catn.com/pub/apache/spark/spark-1.6.1/spark-1.6.1-bin-hadoop2.6.tgz | tar -xz -C /usr/local/
-
+curl -OL http://mirror.catn.com/pub/apache/spark/spark-1.6.1/spark-1.6.1-bin-hadoop2.6.tgz
+tar xvf spark-1.6.1-bin-hadoop2.6.tgz
 # add symbolic link
-cd /usr/local && \
-ln -s spark-1.6.1-bin-hadoop2.6 spark
-
 # sort permissions
-chmod -R 755 spark
+chmod -R 755 spark* && \
+ln -s spark-1.6.1-bin-hadoop2.6 spark
 
 # export spark path
 export SPARK_HOME="/usr/local/spark"
@@ -50,10 +48,10 @@ echo 'export PATH=$PATH:/usr/local/h2o' >> ~/.zshrc ## specific to my local mac
 source ~/.zshrc
 
 ## python
-sudo pip install -U requests
-sudo pip install -U tabulate
-sudo pip install -U future
-sudo pip install -U six
+pip install -U requests
+pip install -U tabulate
+pip install -U future
+pip install -U six
 pip install scikit-learn
 sudo pip uninstall h2o
 sudo pip install http://h2o-release.s3.amazonaws.com/h2o/rel-turchin/8/Python/h2o-3.8.2.8-py2.py3-none-any.whl

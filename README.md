@@ -1,3 +1,6 @@
+
+- caret still has richer set of ML methods and wrapper functions.  
+
 # Sparkling Water
 playing with Sparkling Water
 
