@@ -35,14 +35,30 @@ localH2O = h2o.init(nthreads=-1)
 
 # Finally, let's run a demo to see H2O at work.
 demo(h2o.glm)
-
 demo(h2o.gbm)
 
-iris.gbm = h2o.gbm(x = 1:4, y = 5, training_frame = iris.hex)
 
-x <- h2o.performance(iris.gbm, iris.hex)
+prostate.glm = h2o.glm(x = c("AGE","RACE","PSA","DCAPS"), y = "CAPSULE", training_frame = prostate.hex, family = "binomial", alpha = c(0,0.5,1.0))
+prostate.gbm = h2o.gbm(x = c("AGE","RACE","PSA","DCAPS"), y = "CAPSULE", training_frame = prostate.hex)
+
+h2o.performance(prostate.glm, prostate.hex)
+h2o.performance(prostate.gbm, prostate.hex)
 
 str(x)
 
 ```
 
+
+## spark R
+
+```{r}
+  Sys.setenv(SPARK_HOME = "/usr/local/spark")
+
+library(SparkR, lib.loc = c(file.path(Sys.getenv("SPARK_HOME"), "R", "lib")))
+sc <- sparkR.init(master = "local[*]", sparkEnvir = list(spark.driver.memory="2g"))
+
+```
+
+
+notes on mem in R  
+- http://www.matthewckeller.com/html/memory.html
