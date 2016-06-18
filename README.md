@@ -24,6 +24,7 @@ conda install -c anaconda-cluster spark=1.6.0
 
 ## Python ml
 - to do...
+- http://www.kdnuggets.com/2015/11/seven-steps-machine-learning-python.html  
 
 ## Sparkling Water
 playing with Sparkling Water
