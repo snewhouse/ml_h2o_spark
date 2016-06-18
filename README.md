@@ -24,6 +24,8 @@ conda install -c anaconda-cluster spark=1.6.0
 
 ## Python ml
 - https://github.com/rasbt/python-machine-learning-book  
+- https://github.com/rasbt/mlxtend  
+- `conda install -c rasbt mlxtend`  
 - http://www.kdnuggets.com/2015/11/seven-steps-machine-learning-python.html  
 - http://learnpythonthehardway.org/book/  
 
