@@ -16,8 +16,9 @@ conda install -c anaconda-cluster spark=1.6.0
 
 - https://anaconda.org/anaconda-cluster/notebook-pyspark-language/notebook
 
-## Caret
-- caret still has richer set of ML methods and wrapper functions.  
+## R: Caret
+- caret still has rich set of ML methods and wrapper functions.  
+- http://topepo.github.io/caret/  
 
 ## spark.ml
 - http://spark.apache.org/docs/latest/ml-guide.html
