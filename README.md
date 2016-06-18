@@ -1,10 +1,12 @@
 
 
 ## anaconda
+- https://anaconda.org/anaconda-cluster  
 
-## https://anaconda.org/anaconda-cluster
-conda install -c anaconda-cluster scala=2.11.1
-conda install -c anaconda-cluster spark=1.6.0
+```
+conda install -c anaconda-cluster scala=2.11.1  
+conda install -c anaconda-cluster spark=1.6.0  
+```
 
 ***********
 
