@@ -4,7 +4,8 @@
 - https://anaconda.org/anaconda-cluster  
 - https://docs.continuum.io/anaconda-cluster/quickstart  
 - https://docs.continuum.io/anaconda-cluster/index  
-- 
+
+
 ```
 conda install -c anaconda-cluster scala=2.11.1  
 conda install -c anaconda-cluster spark=1.6.0  
