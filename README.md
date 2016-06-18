@@ -17,9 +17,16 @@ conda install -c anaconda-cluster spark=1.6.0
 
 ***********
 
+## Caret
 - caret still has richer set of ML methods and wrapper functions.  
 
-# Sparkling Water
+## spark.ml
+- http://spark.apache.org/docs/latest/ml-guide.html
+
+## Python ml
+- to do...
+
+## Sparkling Water
 playing with Sparkling Water
 
 - http://www.h2o.ai/product/sparkling-water/  
