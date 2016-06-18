@@ -2,8 +2,8 @@
 
 ## anaconda cluster
 - https://anaconda.org/anaconda-cluster  
-- https://docs.continuum.io/anaconda-cluster/quickstart
-- https://docs.continuum.io/anaconda-cluster/index
+- https://docs.continuum.io/anaconda-cluster/quickstart  
+- https://docs.continuum.io/anaconda-cluster/index  
 - 
 ```
 conda install -c anaconda-cluster scala=2.11.1  
