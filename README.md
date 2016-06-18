@@ -8,6 +8,10 @@ conda install -c anaconda-cluster scala=2.11.1
 conda install -c anaconda-cluster spark=1.6.0  
 ```
 
+### Using Anaconda with Hadoop: Distributed language processing with PySpark
+
+- https://anaconda.org/anaconda-cluster/notebook-pyspark-language/notebook
+
 ***********
 
 - caret still has richer set of ML methods and wrapper functions.  
