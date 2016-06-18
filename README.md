@@ -23,7 +23,7 @@ conda install -c anaconda-cluster spark=1.6.0
 - http://spark.apache.org/docs/latest/ml-guide.html
 
 ## Python ml
-- to do...
+- https://github.com/rasbt/python-machine-learning-book  
 - http://www.kdnuggets.com/2015/11/seven-steps-machine-learning-python.html  
 - http://learnpythonthehardway.org/book/  
 
