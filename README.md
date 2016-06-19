@@ -36,6 +36,17 @@ conda R 3.2.2!! needs a kick up the butt! see issues
 - dont use conda r or r-essentials  
 - use system R and install https://irkernel.github.io/   
 - conflict coming when needing to use conda r-packages   
+- 
+
+after fresh conda install do
+
+```bash
+## https://github.com/conda/conda/issues/1722
+conda info --envs
+conda create --name py35_base --clone root 
+# py35_base is now ready for you to roll back to if things get weird
+# next time I will also make and py35_base_r env before installing r for eg
+```
 
 ## Docker Stacks
 Opinionated stacks of ready-to-run Jupyter applications in Docker.  
