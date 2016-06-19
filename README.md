@@ -1,6 +1,8 @@
 
 # To Do
 
+need to move back to linux soon...all currently on ox-x-64 el cap.
+
 ## Docker Stacks
 Opinionated stacks of ready-to-run Jupyter applications in Docker.  
 - https://github.com/jupyter/docker-stacks
