@@ -5,6 +5,8 @@ need to move back to linux soon...all currently on ox-x-64 el cap.
 
 ## R & Jupytper
 
+- https://github.com/conda/conda/issues/1722  see tips here! dont update!
+
 all a bit shite for now even after fresh install.
 
 ```
