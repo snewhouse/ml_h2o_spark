@@ -3,6 +3,33 @@
 
 need to move back to linux soon...all currently on ox-x-64 el cap.
 
+## R & Jupytper
+
+all a bit shite for now even after fresh install.
+
+```
+sjnewhouse@MacBook-Pro-6:~|⇒  jupyter notebook
+[I 10:55:48.688 NotebookApp] The port 8888 is already in use, trying another port.
+[I 10:55:48.689 NotebookApp] The port 8889 is already in use, trying another port.
+[I 10:55:48.690 NotebookApp] The port 8890 is already in use, trying another port.
+[I 10:55:48.690 NotebookApp] The port 8891 is already in use, trying another port.
+[I 10:55:48.707 NotebookApp] Serving notebooks from local directory: /Users/sjnewhouse
+[I 10:55:48.707 NotebookApp] 0 active kernels
+[I 10:55:48.708 NotebookApp] The Jupyter Notebook is running at: http://localhost:8892/
+[I 10:55:48.708 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 10:55:54.065 NotebookApp] Creating new notebook in
+[I 10:55:55.095 NotebookApp] Kernel started: 85e17cb2-608d-442c-8e89-1cd8731c1e33
+Error in dyn.load(file, DLLpath = DLLpath, ...) :
+  unable to load shared object '/Users/sjnewhouse/anaconda3/lib/R/library/rzmq/libs/rzmq.so':
+  dlopen(/Users/sjnewhouse/anaconda3/lib/R/library/rzmq/libs/rzmq.so, 6): Library not loaded: @rpath/libzmq.5.dylib
+  Referenced from: /Users/sjnewhouse/anaconda3/lib/R/library/rzmq/libs/rzmq.so
+  Reason: image not found
+Calls: :: ... tryCatch -> tryCatchList -> tryCatchOne -> <Anonymous>
+Execution halted
+```
+
+conda R 3.2.2!! needs a kick up the butt! see issues
+
 ## Docker Stacks
 Opinionated stacks of ready-to-run Jupyter applications in Docker.  
 - https://github.com/jupyter/docker-stacks
