@@ -36,9 +36,9 @@ conda R 3.2.2!! needs a kick up the butt! see issues
 - dont use conda r or r-essentials  
 - use system R and install https://irkernel.github.io/   
 - conflict coming when needing to use conda r-packages   
-- 
+- ...   
 
-after fresh conda install do
+after fresh conda install do. Notebook now works with R (but system R not conda R!).
 
 ```bash
 ## https://github.com/conda/conda/issues/1722
