@@ -1,6 +1,11 @@
 
 # To Do
 
+## Docker Stacks
+Opinionated stacks of ready-to-run Jupyter applications in Docker.  
+- https://github.com/jupyter/docker-stacks
+
+
 ## anaconda cluster
 - https://anaconda.org/anaconda-cluster  
 - https://docs.continuum.io/anaconda-cluster/quickstart  
