@@ -5,8 +5,6 @@ need to move back to linux soon...all currently on ox-x-64 el cap.
 
 ## R & Jupytper
 
-- https://github.com/conda/conda/issues/1722  see tips here! dont update!
-
 all a bit shite for now even after fresh install.
 
 ```
@@ -31,6 +29,13 @@ Execution halted
 ```
 
 conda R 3.2.2!! needs a kick up the butt! see issues
+
+#### Fix
+- fresh install  anaconda and rm `~/.anaconda`  
+- https://github.com/conda/conda/issues/1722  see tips here! dont update!  
+- dont use conda r or r-essentials  
+- use system R and install https://irkernel.github.io/   
+- conflict coming when needing to use conda r-packages   
 
 ## Docker Stacks
 Opinionated stacks of ready-to-run Jupyter applications in Docker.  
